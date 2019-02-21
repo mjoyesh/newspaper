@@ -1,0 +1,179 @@
+body{
+	background-color: #F3F3F3;
+}
+
+.wrapper{
+	background-color: white;
+
+}
+
+header{
+	display: inline-block;
+}
+
+header img{
+float: left;	
+height: 100px;
+padding: 50px 0 0 50px; 
+}
+
+header h1{
+line-height: 100px;
+padding: 20px 0 0 50px; 
+margin: 50px 0px 0 240px;
+font-size: 70px;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+hr{
+	color: gray;
+	margin: 30px 50px 0 50px;
+}
+
+.boxed{
+	position: relative;
+	border: 1px solid black;
+	width: 400px;
+	height: 150px;
+	margin: 50px 0 0 280px;
+}
+
+
+.text-block h4{
+	white-space: nowrap;
+	position: absolute;
+	top: -10px;
+	right:-35px;
+	font-size: 45px;
+	background-color: white;
+}
+
+.container{
+	padding: 2px;
+}
+
+.organizes{
+	text-align: justify;
+	padding: 5px 50px 0 50px;
+}
+
+.newer-images{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.newer-image-block1{
+	flex: 1;
+	padding:15px 10px 0 0;
+}
+
+.newer-image-block1 img{
+	
+	height: 83.7%;
+}
+
+.newer-image-block2{
+	flex: 1;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.newer-image-block2 img{
+	padding:10px 0 0 0;
+	height: 40%;
+}
+
+.section{
+	display: flex;
+}
+
+.section-content1{
+	flex: 1;
+	width: 50%; 
+}
+
+.section-content1 h2{
+	text-align: initial;
+	font-size: 50px;
+}
+
+.section-content1 p{
+	font-size: 48px;
+}
+
+.section-content2{
+	padding-left: 20px;
+	width: 50%;
+}
+
+.section-content2 h2{
+	text-align: initial;
+	font-size: 50px;
+}
+
+.section-content2 p{
+	font-size: 48px;
+}
+
+#text-background{
+	background-image: linear-gradient(to right, #cc0099 , #3366ff);
+	color: white;
+}
+
+.headlines-image{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F3F3F3;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.ads1{
+	flex: 1;
+	font-size: 30px;
+
+}
+
+.ads2{
+	flex: 1;
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+.ads2 img{
+	width: 100%;
+}
+
+@media (min-width: 1100px) {
+	header h1{
+padding-left: 70px;
+}
+
+.boxed{
+	margin: 50px 0 0 350px;
+}
+
+.section-content1 h2{
+	text-align: initial;
+	font-size: 30px;
+}
+
+.section-content2 h2{
+	text-align: initial;
+	font-size: 30px;
+}
+
+.section-content1 p{
+	text-align: initial;
+	font-size: 22px;
+}
+
+.section-content2 p{
+	text-align: initial;
+	font-size: 22px;
+}
+}
